@@ -1,0 +1,141 @@
+/* General reset for margin and padding */
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Basic styling for the header */
+.header {
+  background-color: #f8f9fa; /* Light grey background */
+  padding: 15px 25px; /* Spacing around the header */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Styling for the unordered list */
+.header ul {
+  display: flex; /* Align items horizontally */
+  align-items: center;
+}
+
+/* Styling for each list item */
+.header ul li {
+  margin-right: 30px; /* Space between items */
+  font-family: Arial, sans-serif; /* Font styling */
+  font-size: 16px; /* Font size */
+  color: #333; /* Text color */
+  cursor: pointer;
+}
+.header li:hover {
+  color: white;
+  background-color: blue;
+  transition: 1.5s;
+  border-radius: 4px;
+}
+
+/* Last list item without right margin */
+.header ul li:last-child {
+  margin-right: 0;
+}
+
+.header1 {
+  width: 100%;
+  height: 10vh;
+  background-color: red;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+}
+
+.header1 {
+  text-align: center;
+  padding: 20px;
+}
+.header1 p {
+  font-size: 24px;
+}
+.header1 .live1 {
+  font-size: 16px;
+  padding: 20px 30px;
+  margin: 0 100px;
+  cursor: pointer;
+  margin-left: 445px;
+}
+.header1 .live2 {
+  font-size: 16px;
+  padding: 20px 50px;
+  margin: 0 10px;
+  cursor: pointer;
+  margin-left: -143px; /* margin-left: 445px; */
+}
+.container {
+  display: flex;
+}
+
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styling for the container */
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.container > div {
+  /* text-align: center; */
+  width: 30%;
+  padding: 20px;
+}
+.h2class {
+  font-size: 245px;
+}
+.container .first h3 {
+  font-size: 30px;
+  margin-top: 35px;
+  cursor: pointer;
+}
+.container .second h3 {
+  font-size: 30px;
+  margin-top: 35px;
+  cursor: pointer;
+}
+.container .third h3 {
+  font-size: 30px;
+  margin-top: 35px;
+  cursor: pointer;
+}
+.images {
+  width: 80%;
+  margin: auto;
+}
+.end {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.end .para1 {
+  font-size: 34px;
+}
+.end .para2 {
+  padding: 44px;
+  font-size: 33px;
+}
+.end button {
+  color: white;
+  font-size: 25px;
+  border-radius: 35px;
+  background-color: black;
+}
+.end button:hover {
+  background-color: darkblue;
+  transition: 0.5s;
+}
